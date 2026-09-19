@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Singularity Kit &mdash; Civilization Continuity | singularitys.io</title>
   <meta name="description" content="A complete, offline-ready vault of human science, engineering, medicine, and survival knowledge. Five tiers from essential survival to full civilizational rebuild. Buy once, update annually." />
-  <meta name="keywords" content="civilization continuity, survival knowledge, off-grid, emergency preparedness, singularity kit, ark drive, genesis pack, infinite water, offline vault, catastrophe preparedness" />
+  <meta name="keywords" content="civilization continuity, survival knowledge, off-grid, emergency preparedness, singularity kit, ark drive, genesis pack, offline vault, catastrophe preparedness" />
   <meta name="author" content="Singularity Kit" />
   <link rel="canonical" href="https://singularitys.io/" />
   <meta property="og:type" content="website" />
@@ -16,28 +16,26 @@
   <meta property="og:image" content="https://singularitys.io/assets/hero_device.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@singularitysio" />
   <meta name="twitter:title" content="Singularity Kit &mdash; The knowledge to rebuild everything." />
-  <meta name="twitter:description" content="A complete, offline-ready vault of human science, engineering, medicine, and survival knowledge. Five tiers from $49." />
+  <meta name="twitter:description" content="A complete, offline-ready vault of human science, engineering, medicine, and survival knowledge." />
   <meta name="twitter:image" content="https://singularitys.io/assets/hero_device.jpg" />
   <meta name="theme-color" content="#080d18" />
   <meta name="robots" content="index, follow" />
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Product","name":"Singularity Kit","url":"https://singularitys.io/","description":"A complete offline vault of human knowledge for catastrophe preparedness.","brand":{"@type":"Brand","name":"Singularity Kit"},"offers":[{"@type":"Offer","name":"SingularityKit Essential","price":"49","priceCurrency":"USD","availability":"https://schema.org/InStock"},{"@type":"Offer","name":"ArkDrive Standard","price":"299","priceCurrency":"USD","availability":"https://schema.org/InStock"},{"@type":"Offer","name":"ZeroPoint Vault Advanced","price":"799","priceCurrency":"USD","availability":"https://schema.org/InStock"},{"@type":"Offer","name":"Civilisation Seed Premium","price":"1999","priceCurrency":"USD","availability":"https://schema.org/InStock"},{"@type":"Offer","name":"Genesis Pack Ultimate","price":"4999","priceCurrency":"USD","availability":"https://schema.org/InStock"}]}
   </script>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-<!-- NAV -->
 <nav id="navbar">
   <div class="nav-inner">
-    <a href="#" class="nav-logo">
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a href="/" class="nav-logo">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
         <circle cx="14" cy="14" r="13" stroke="#4A9EFF" stroke-width="1.5"/>
         <circle cx="14" cy="14" r="5" fill="#4A9EFF" opacity="0.8"/>
         <line x1="14" y1="1" x2="14" y2="7" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
@@ -48,21 +46,15 @@
       <span>Singularity Kit</span>
     </a>
     <ul class="nav-links">
-      <li><a href="#what" data-i18n="nav_what">What's Inside</a></li>
-      <li><a href="#tiers" data-i18n="nav_tiers">Packages</a></li>
-      <li><a href="#service" data-i18n="nav_service">Service</a></li>
-      <li><a href="#pricing" data-i18n="nav_pricing">Pricing</a></li>
-      <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
-      <li><a href="#contact" data-i18n="nav_contact">Waitlist</a></li>
+      <li><a href="#what">What's Inside</a></li>
+      <li><a href="#tiers">Packages</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Waitlist</a></li>
     </ul>
     <div class="nav-right">
-      <div class="lang-switcher">
-        <button class="lang-btn active" onclick="setLang('en')">EN</button>
-        <button class="lang-btn" onclick="setLang('ja')">JA</button>
-        <button class="lang-btn" onclick="setLang('es')">ES</button>
-        <button class="lang-btn" onclick="setLang('zh')">ZH</button>
-      </div>
-      <a href="#pricing" class="btn-nav" data-i18n="nav_cta">Get Yours</a>
+      <a href="#pricing" class="btn-nav">Get Yours</a>
     </div>
     <button class="hamburger" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
@@ -70,216 +62,178 @@
   </div>
 </nav>
 
-<!-- HERO -->
 <section id="hero">
   <div class="hero-bg"></div>
   <div class="hero-content">
-    <div class="hero-badge" data-i18n="hero_badge">Civilization Continuity</div>
-    <h1 data-i18n="hero_h1">The knowledge to<br/>rebuild everything.</h1>
-    <p class="hero-sub" data-i18n="hero_sub">A complete, offline-ready vault of human science, engineering, medicine, and survival knowledge. Sealed in a single rugged drive. Ready for the moment infrastructure is gone.</p>
+    <div class="hero-badge">Civilization Continuity</div>
+    <h1>The knowledge to<br/>rebuild everything.</h1>
+    <p class="hero-sub">A complete, offline-ready vault of human science, engineering, medicine, and survival knowledge. Sealed in a single rugged drive. Ready for the moment infrastructure is gone.</p>
     <div class="hero-actions">
-      <a href="#pricing" class="btn-primary" data-i18n="hero_cta1">Explore Packages</a>
-      <a href="#what" class="btn-ghost" data-i18n="hero_cta2">See What's Inside</a>
+      <a href="#pricing" class="btn-primary">Explore Packages</a>
+      <a href="#what" class="btn-ghost">See What's Inside</a>
     </div>
     <div class="hero-stats">
-      <div class="stat"><span class="stat-num">5</span><span class="stat-label" data-i18n="stat_tiers">Package Tiers</span></div>
+      <div class="stat"><span class="stat-num">5</span><span class="stat-label">Package Tiers</span></div>
       <div class="stat-div"></div>
-      <div class="stat"><span class="stat-num">4</span><span class="stat-label" data-i18n="stat_lang">Languages</span></div>
+      <div class="stat"><span class="stat-num">3</span><span class="stat-label">Languages</span></div>
       <div class="stat-div"></div>
-      <div class="stat"><span class="stat-num" style="font-size:1.2rem;" data-i18n="stat_water_num">Mugen</span><span class="stat-label" data-i18n="stat_water">Water System</span></div>
+      <div class="stat"><span class="stat-num">14 TB</span><span class="stat-label">Max. Data</span></div>
       <div class="stat-div"></div>
-      <div class="stat"><span class="stat-num">0</span><span class="stat-label" data-i18n="stat_infra">Internet Required</span></div>
+      <div class="stat"><span class="stat-num">0</span><span class="stat-label">Internet Required</span></div>
     </div>
   </div>
   <div class="hero-image-wrap">
     <div class="hero-glow"></div>
-    <img src="assets/hero_device.jpg" alt="Singularity Drive" class="hero-img" />
+    <img src="/assets/hero_device.jpg" alt="Singularity Drive" class="hero-img" />
   </div>
 </section>
 
-<!-- WHAT IS INSIDE -->
 <section id="what">
   <div class="section-inner">
-    <div class="section-label" data-i18n="what_label">THE VAULT</div>
-    <h2 data-i18n="what_h2">Everything a civilization needs to restart.</h2>
-    <p class="section-sub" data-i18n="what_sub">Curated from open-access scientific databases, government archives, and peer-reviewed repositories. Updated continuously. Compressed for low-power offline access.</p>
+    <div class="section-label">THE VAULT</div>
+    <h2>Everything a civilization needs to restart.</h2>
+    <p class="section-sub">Curated from open-access scientific databases, government archives, and peer-reviewed repositories. Updated continuously. Compressed for low-power offline access.</p>
     <div class="features-grid">
 
       <div class="feature-card">
         <div class="feature-icon">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 6 C20 6 10 16 10 24 C10 29.5 14.5 34 20 34 C25.5 34 30 29.5 30 24 C30 16 20 6 20 6Z" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.15)"/>
-            <path d="M14 26 C15 28 17 30 20 30" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 6 C20 6 10 16 10 24 C10 29.5 14.5 34 20 34 C25.5 34 30 29.5 30 24 C30 16 20 6 20 6Z" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.15)"/><path d="M14 26 C15 28 17 30 20 30" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/></svg>
         </div>
-        <h3 data-i18n="f1_title">Infinite Water Systems</h3>
-        <p data-i18n="f1_desc">Atmospheric water generation, solar distillation, biological filtration, rainwater harvesting &mdash; full engineering schematics included.</p>
+        <h3>Water &amp; Sanitation</h3>
+        <p>Safe water sourcing, purification, and sanitation systems for any environment &mdash; from rivers and rain to groundwater and atmospheric extraction. Full technical guides included.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 32 L20 18" stroke="#4A9EFF" stroke-width="2" stroke-linecap="round"/>
-            <path d="M20 18 C20 18 14 13 14 8 C14 5 16.5 4 20 6 C23.5 4 26 5 26 8 C26 13 20 18 20 18Z" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.15)"/>
-            <path d="M15 22 C15 22 12 20 12 17" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 32 L20 18" stroke="#4A9EFF" stroke-width="2" stroke-linecap="round"/><path d="M20 18 C20 18 14 13 14 8 C14 5 16.5 4 20 6 C23.5 4 26 5 26 8 C26 13 20 18 20 18Z" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.15)"/><path d="M15 22 C15 22 12 20 12 17" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/></svg>
         </div>
-        <h3 data-i18n="f2_title">Seeds &amp; Agriculture</h3>
-        <p data-i18n="f2_desc">Heirloom seed catalogues, soil regeneration protocols, crop rotation maps, and chemical-free pest management.</p>
+        <h3>Seeds &amp; Agriculture</h3>
+        <p>Heirloom seed catalogues, soil regeneration protocols, crop rotation maps, and chemical-free pest management.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="18" y="8" width="4" height="24" rx="2" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.15)"/>
-            <rect x="8" y="18" width="24" height="4" rx="2" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.15)"/>
-          </svg>
+          <svg viewBox="0 0 40 40" fill="none"><rect x="18" y="8" width="4" height="24" rx="2" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.15)"/><rect x="8" y="18" width="24" height="4" rx="2" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.15)"/></svg>
         </div>
-        <h3 data-i18n="f3_title">Medicine &amp; Pharmacy</h3>
-        <p data-i18n="f3_desc">Field surgery guides, plant-based pharmacopoeia, epidemic response protocols, and sanitation infrastructure blueprints.</p>
+        <h3>Medicine &amp; Pharmacy</h3>
+        <p>Field surgery guides, plant-based pharmacopoeia, epidemic response protocols, and sanitation infrastructure blueprints.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 8 L14 22 L18 22 L14 34" stroke="#4A9EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-            <path d="M26 8 L20 22 L24 22 L20 34" stroke="#4A9EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="rgba(74,158,255,0.1)"/>
-          </svg>
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 8 L14 22 L18 22 L14 34" stroke="#4A9EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M26 8 L20 22 L24 22 L20 34" stroke="#4A9EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="rgba(74,158,255,0.1)"/></svg>
         </div>
-        <h3 data-i18n="f4_title">Energy &amp; Engineering</h3>
-        <p data-i18n="f4_desc">Solar, hydro, bio-gas, and wind power from primitive materials. Metallurgy, construction, and toolmaking from first principles.</p>
+        <h3>Energy &amp; Engineering</h3>
+        <p>Solar, hydro, bio-gas, and wind power from primitive materials. Metallurgy, construction, and toolmaking from first principles.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="4" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.2)"/>
-            <path d="M12 12 C9 15 9 25 12 28" stroke="#4A9EFF" stroke-width="1.8" stroke-linecap="round" fill="none"/>
-            <path d="M28 12 C31 15 31 25 28 28" stroke="#4A9EFF" stroke-width="1.8" stroke-linecap="round" fill="none"/>
-            <path d="M7 7 C2 12 2 28 7 33" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/>
-            <path d="M33 7 C38 12 38 28 33 33" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/>
-          </svg>
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="4" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.2)"/><path d="M12 12 C9 15 9 25 12 28" stroke="#4A9EFF" stroke-width="1.8" stroke-linecap="round" fill="none"/><path d="M28 12 C31 15 31 25 28 28" stroke="#4A9EFF" stroke-width="1.8" stroke-linecap="round" fill="none"/><path d="M7 7 C2 12 2 28 7 33" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/><path d="M33 7 C38 12 38 28 33 33" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/></svg>
         </div>
-        <h3 data-i18n="f5_title">Communication Protocols</h3>
-        <p data-i18n="f5_desc">Off-grid radio, mesh networking, optical telegraphy, and low-power signal guides to reconnect communities.</p>
+        <h3>Communication Protocols</h3>
+        <p>Off-grid radio, mesh networking, optical telegraphy, and low-power signal guides to reconnect communities.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="6" y="8" width="28" height="20" rx="2" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.1)"/>
-            <circle cx="20" cy="18" r="4" stroke="#4A9EFF" stroke-width="1.5" fill="rgba(74,158,255,0.2)"/>
-            <path d="M20 12 L20 8 M20 28 L20 32 M26 32 L14 32" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
+          <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="8" width="28" height="20" rx="2" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.1)"/><circle cx="20" cy="18" r="4" stroke="#4A9EFF" stroke-width="1.5" fill="rgba(74,158,255,0.2)"/><path d="M20 12 L20 8 M20 28 L20 32 M26 32 L14 32" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/></svg>
         </div>
-        <h3 data-i18n="f6_title">Geography &amp; Infrastructure</h3>
-        <p data-i18n="f6_desc">Topographic maps, watershed data, mineral deposit locations, and transport corridor planning.</p>
+        <h3>Geography &amp; Infrastructure</h3>
+        <p>Topographic maps, watershed data, mineral deposit locations, and transport corridor planning.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="5" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.2)"/>
-            <path d="M20 20 L20 8" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M20 20 L29 26" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M20 20 L11 26" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
-            <circle cx="20" cy="8" r="2.5" fill="#4A9EFF" opacity="0.7"/>
-            <circle cx="29" cy="26" r="2.5" fill="#4A9EFF" opacity="0.7"/>
-            <circle cx="11" cy="26" r="2.5" fill="#4A9EFF" opacity="0.7"/>
-          </svg>
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="5" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.2)"/><path d="M20 20 L20 8" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/><path d="M20 20 L29 26" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/><path d="M20 20 L11 26" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/><circle cx="20" cy="8" r="2.5" fill="#4A9EFF" opacity="0.7"/><circle cx="29" cy="26" r="2.5" fill="#4A9EFF" opacity="0.7"/><circle cx="11" cy="26" r="2.5" fill="#4A9EFF" opacity="0.7"/></svg>
         </div>
-        <h3 data-i18n="f7_title">Science &amp; Technology Archive</h3>
-        <p data-i18n="f7_desc">Core physics, chemistry, biology, and materials science &mdash; from first principles through modern applied engineering.</p>
+        <h3>Science &amp; Technology Archive</h3>
+        <p>Core physics, chemistry, biology, and materials science &mdash; from first principles through modern applied engineering.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="8" y="10" width="24" height="22" rx="2" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.1)"/>
-            <path d="M13 17 L27 17 M13 22 L27 22 M13 27 L20 27" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M18 6 L22 6 L22 10 L18 10 Z" fill="#4A9EFF" opacity="0.6"/>
-          </svg>
+          <svg viewBox="0 0 40 40" fill="none"><rect x="8" y="10" width="24" height="22" rx="2" stroke="#4A9EFF" stroke-width="2" fill="rgba(74,158,255,0.1)"/><path d="M13 17 L27 17 M13 22 L27 22 M13 27 L20 27" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/><path d="M18 6 L22 6 L22 10 L18 10 Z" fill="#4A9EFF" opacity="0.6"/></svg>
         </div>
-        <h3 data-i18n="f8_title">Governance &amp; Society</h3>
-        <p data-i18n="f8_desc">Legal frameworks, constitutional models, economic systems, conflict resolution, and cultural preservation archives.</p>
+        <h3>Governance &amp; Society</h3>
+        <p>Legal frameworks, constitutional models, economic systems, conflict resolution, and cultural preservation archives.</p>
       </div>
 
     </div>
   </div>
 </section>
 
-<!-- PRODUCT TIERS -->
 <section id="tiers">
   <div class="section-inner">
-    <div class="section-label" data-i18n="tiers_label">PACKAGES</div>
-    <h2 data-i18n="tiers_h2">Five levels of preparedness.</h2>
-    <p class="section-sub" data-i18n="tiers_sub">From essential survival to full civilizational rebuild. Choose the depth that matches your mission.</p>
+    <div class="section-label">PACKAGES</div>
+    <h2>Five levels of preparedness.</h2>
+    <p class="section-sub">From essential survival to full civilizational rebuild. Choose the depth that matches your mission.</p>
     <div class="tiers-grid">
 
       <div class="tier-card">
-        <div class="tier-top"><div class="tier-name">SingularityKit</div><div class="tier-tag" data-i18n="tier1_tag">Essential</div></div>
-        <div class="tier-desc" data-i18n="tier1_desc">The minimum to survive the first 90 days. Digital download &mdash; load it onto any drive you own.</div>
+        <div class="tier-top"><div class="tier-name">SingularityKit</div><div class="tier-tag">Essential</div></div>
+        <div class="tier-desc">The minimum to survive the first 90 days. Digital download &mdash; load it onto any drive you own.</div>
         <ul class="tier-list">
-          <li data-i18n="tier1_l1">Survival &amp; first aid guides</li>
-          <li data-i18n="tier1_l2">Basic water sourcing</li>
-          <li data-i18n="tier1_l3">Edible plant identification</li>
-          <li data-i18n="tier1_l4">Shelter construction basics</li>
-          <li class="muted" data-i18n="tier1_l5">Physical drive not included</li>
+          <li>Survival &amp; first aid guides</li>
+          <li>Basic water sourcing &amp; purification</li>
+          <li>Edible plant identification</li>
+          <li>Shelter construction basics</li>
+          <li class="muted">Physical drive not included</li>
         </ul>
         <div class="tier-size">~50 GB</div>
       </div>
 
       <div class="tier-card">
-        <div class="tier-top"><div class="tier-name">ArkDrive</div><div class="tier-tag" data-i18n="tier2_tag">Standard</div></div>
-        <div class="tier-desc" data-i18n="tier2_desc">Pre-loaded rugged drive. First-year survival plus agricultural restart and community medicine.</div>
+        <div class="tier-top"><div class="tier-name">ArkDrive</div><div class="tier-tag">Standard</div></div>
+        <div class="tier-desc">Pre-loaded rugged drive. First-year survival plus agricultural restart and community medicine.</div>
         <ul class="tier-list">
-          <li data-i18n="tier2_l1">Everything in SingularityKit</li>
-          <li data-i18n="tier2_l2">Agriculture &amp; seed database</li>
-          <li data-i18n="tier2_l3">Community medicine &amp; sanitation</li>
-          <li data-i18n="tier2_l4">Off-grid energy basics</li>
-          <li data-i18n="tier2_l5">Rugged 1TB drive included</li>
+          <li>Everything in SingularityKit</li>
+          <li>Agriculture &amp; seed database</li>
+          <li>Community medicine &amp; sanitation</li>
+          <li>Off-grid energy basics</li>
+          <li>Rugged 1TB drive included</li>
         </ul>
         <div class="tier-size">~500 GB</div>
       </div>
 
       <div class="tier-card featured">
-        <div class="popular-badge" data-i18n="popular">Most Popular</div>
-        <div class="tier-top"><div class="tier-name">ZeroPoint Vault</div><div class="tier-tag" data-i18n="tier3_tag">Advanced</div></div>
-        <div class="tier-desc" data-i18n="tier3_desc">Full engineering library, advanced medicine, communication, and governance. Enough to restart a small nation.</div>
+        <div class="popular-badge">Most Popular</div>
+        <div class="tier-top"><div class="tier-name">ZeroPoint Vault</div><div class="tier-tag">Advanced</div></div>
+        <div class="tier-desc">Full engineering library, advanced medicine, communication, and governance. Enough to restart a small nation.</div>
         <ul class="tier-list">
-          <li data-i18n="tier3_l1">Everything in ArkDrive</li>
-          <li data-i18n="tier3_l2">Full engineering &amp; metallurgy</li>
-          <li data-i18n="tier3_l3">Advanced pharmaceutical synthesis</li>
-          <li data-i18n="tier3_l4">Off-grid communication protocols</li>
-          <li data-i18n="tier3_l5">Governance &amp; legal frameworks</li>
-          <li data-i18n="tier3_l6">Rugged 4TB drive included</li>
+          <li>Everything in ArkDrive</li>
+          <li>Full engineering &amp; metallurgy</li>
+          <li>Advanced pharmaceutical synthesis</li>
+          <li>Off-grid communication protocols</li>
+          <li>Governance &amp; legal frameworks</li>
+          <li>Rugged 4TB drive included</li>
         </ul>
         <div class="tier-size">~2 TB</div>
       </div>
 
       <div class="tier-card">
-        <div class="tier-top"><div class="tier-name">Civilisation Seed</div><div class="tier-tag" data-i18n="tier4_tag">Premium</div></div>
-        <div class="tier-desc" data-i18n="tier4_desc">Everything needed to rebuild technological civilization &mdash; including full scientific archives and biodiversity databases.</div>
+        <div class="tier-top"><div class="tier-name">Civilisation Seed</div><div class="tier-tag">Premium</div></div>
+        <div class="tier-desc">Everything needed to rebuild technological civilization &mdash; including full scientific archives and biodiversity databases.</div>
         <ul class="tier-list">
-          <li data-i18n="tier4_l1">Everything in ZeroPoint Vault</li>
-          <li data-i18n="tier4_l2">Full science &amp; research archive</li>
-          <li data-i18n="tier4_l3">Biodiversity &amp; genomics database</li>
-          <li data-i18n="tier4_l4">Cultural &amp; historical preservation</li>
-          <li data-i18n="tier4_l5">Redundant 8TB RAID drive system</li>
+          <li>Everything in ZeroPoint Vault</li>
+          <li>Full science &amp; research archive</li>
+          <li>Biodiversity &amp; genomics database</li>
+          <li>Cultural &amp; historical preservation</li>
+          <li>Redundant 8TB RAID drive system</li>
         </ul>
         <div class="tier-size">~6 TB</div>
       </div>
 
       <div class="tier-card genesis">
-        <div class="tier-top"><div class="tier-name">Genesis Pack</div><div class="tier-tag gold" data-i18n="tier5_tag">Ultimate</div></div>
-        <div class="tier-desc" data-i18n="tier5_desc">The complete package. All knowledge plus Infinite Water engineering, reactor-compatible interface, and multi-redundant hardened media.</div>
+        <div class="tier-top"><div class="tier-name">Genesis Pack</div><div class="tier-tag gold">Ultimate</div></div>
+        <div class="tier-desc">The complete package. All knowledge archives, EMP-hardened NAS storage, and white-glove installation with lifetime support.</div>
         <ul class="tier-list">
-          <li data-i18n="tier5_l1">Everything in Civilisation Seed</li>
-          <li data-i18n="tier5_l2">Infinite Water System (Mugen Mizu)</li>
-          <li data-i18n="tier5_l3">Reactor-compatible drive interface</li>
-          <li data-i18n="tier5_l4">EMP-hardened 16TB NAS enclosure</li>
-          <li data-i18n="tier5_l5">White-glove setup &amp; consultation</li>
-          <li data-i18n="tier5_l6">Lifetime priority update service</li>
+          <li>Everything in Civilisation Seed</li>
+          <li>Complete encyclopaedic science &amp; technology archive</li>
+          <li>EMP-hardened 16TB NAS enclosure</li>
+          <li>White-glove setup &amp; consultation</li>
+          <li>Lifetime priority update service</li>
+          <li>Dedicated support line</li>
         </ul>
         <div class="tier-size">~14 TB</div>
       </div>
@@ -288,98 +242,75 @@
   </div>
 </section>
 
-<!-- HOW IT WORKS -->
 <section id="service">
   <div class="section-inner">
-    <div class="section-label" data-i18n="svc_label">THE SERVICE</div>
-    <h2 data-i18n="svc_h2">Buy once. Stay current forever.</h2>
-    <p class="section-sub" data-i18n="svc_sub">Knowledge evolves. New breakthroughs in water generation, medicine, and materials science happen every year. Our update service ensures your vault never goes stale.</p>
+    <div class="section-label">THE SERVICE</div>
+    <h2>Buy once. Stay current forever.</h2>
+    <p class="section-sub">Knowledge evolves. New breakthroughs in medicine and materials science happen every year. Our update service ensures your vault never goes stale.</p>
     <div class="steps">
-      <div class="step">
-        <div class="step-num">01</div>
-        <h3 data-i18n="step1_title">Choose Your Package</h3>
-        <p data-i18n="step1_desc">Select the tier that fits your needs &mdash; from individual to community to nation-scale preparedness.</p>
-      </div>
+      <div class="step"><div class="step-num">01</div><h3>Choose Your Package</h3><p>Select the tier that fits your needs &mdash; from individual to community to nation-scale preparedness.</p></div>
       <div class="step-arrow">&rarr;</div>
-      <div class="step">
-        <div class="step-num">02</div>
-        <h3 data-i18n="step2_title">Receive Your Vault</h3>
-        <p data-i18n="step2_desc">Digital download immediately, or a physical hardened drive shipped in 5&ndash;10 business days anywhere in the world.</p>
-      </div>
+      <div class="step"><div class="step-num">02</div><h3>Receive Your Vault</h3><p>Digital download immediately, or a physical hardened drive shipped in 5&ndash;10 business days anywhere in the world.</p></div>
       <div class="step-arrow">&rarr;</div>
-      <div class="step">
-        <div class="step-num">03</div>
-        <h3 data-i18n="step3_title">Optional Annual Update</h3>
-        <p data-i18n="step3_desc">Receive a delta update each year &mdash; new research, revised protocols, and expanded databases.</p>
-      </div>
+      <div class="step"><div class="step-num">03</div><h3>Optional Annual Update</h3><p>Receive a delta update each year &mdash; new research, revised protocols, and expanded databases.</p></div>
     </div>
   </div>
 </section>
 
-<!-- PRICING -->
 <section id="pricing">
   <div class="section-inner">
-    <div class="section-label" data-i18n="price_label">PRICING</div>
-    <h2 data-i18n="price_h2">Simple, transparent pricing.</h2>
-    <p class="section-sub" data-i18n="price_sub">Buy once and own the data outright. Add the annual update service anytime.</p>
+    <div class="section-label">PRICING</div>
+    <h2>Simple, transparent pricing.</h2>
+    <p class="section-sub">Buy once and own the data outright. Add the annual update service anytime.</p>
     <div class="pricing-toggle">
-      <button class="ptoggle active" id="tog-one" onclick="showPricing('onetime')" data-i18n="tog_one">One-Time Purchase</button>
-      <button class="ptoggle" id="tog-annual" onclick="showPricing('annual')" data-i18n="tog_annual">With Annual Updates</button>
+      <button class="ptoggle active" id="tog-one" onclick="showPricing('onetime')">One-Time Purchase</button>
+      <button class="ptoggle" id="tog-annual" onclick="showPricing('annual')">With Annual Updates</button>
     </div>
     <div class="pricing-grid" id="pricing-one">
-      <div class="price-card"><div class="price-name">SingularityKit</div><div class="price-amount"><span class="currency">$</span>49</div><div class="price-note" data-i18n="price_digital">Digital download only</div><a href="#" class="btn-price" data-i18n="btn_buy">Buy Now</a></div>
-      <div class="price-card"><div class="price-name">ArkDrive</div><div class="price-amount"><span class="currency">$</span>299</div><div class="price-note" data-i18n="price_inc_drive">Includes rugged 1TB drive</div><a href="#" class="btn-price" data-i18n="btn_buy">Buy Now</a></div>
-      <div class="price-card featured"><div class="price-name">ZeroPoint Vault</div><div class="price-amount"><span class="currency">$</span>799</div><div class="price-note" data-i18n="price_inc_4tb">Includes rugged 4TB drive</div><a href="#" class="btn-price-gold" data-i18n="btn_buy">Buy Now</a></div>
-      <div class="price-card"><div class="price-name">Civilisation Seed</div><div class="price-amount"><span class="currency">$</span>1,999</div><div class="price-note" data-i18n="price_inc_8tb">Includes redundant 8TB RAID</div><a href="#" class="btn-price" data-i18n="btn_buy">Buy Now</a></div>
-      <div class="price-card genesis-price"><div class="price-name">Genesis Pack</div><div class="price-amount"><span class="currency">$</span>4,999</div><div class="price-note" data-i18n="price_genesis">EMP-hardened 16TB NAS + setup</div><a href="#" class="btn-price-gold" data-i18n="btn_contact">Contact Us</a></div>
+      <div class="price-card"><div class="price-name">SingularityKit</div><div class="price-amount"><span class="currency">$</span>49</div><div class="price-note">Digital download only</div><a href="#" class="btn-price">Buy Now</a></div>
+      <div class="price-card"><div class="price-name">ArkDrive</div><div class="price-amount"><span class="currency">$</span>299</div><div class="price-note">Includes rugged 1TB drive</div><a href="#" class="btn-price">Buy Now</a></div>
+      <div class="price-card featured"><div class="price-name">ZeroPoint Vault</div><div class="price-amount"><span class="currency">$</span>799</div><div class="price-note">Includes rugged 4TB drive</div><a href="#" class="btn-price-gold">Buy Now</a></div>
+      <div class="price-card"><div class="price-name">Civilisation Seed</div><div class="price-amount"><span class="currency">$</span>1,999</div><div class="price-note">Includes redundant 8TB RAID</div><a href="#" class="btn-price">Buy Now</a></div>
+      <div class="price-card genesis-price"><div class="price-name">Genesis Pack</div><div class="price-amount"><span class="currency">$</span>4,999</div><div class="price-note">EMP-hardened 16TB NAS + setup</div><a href="#" class="btn-price-gold">Contact Us</a></div>
     </div>
     <div class="pricing-grid hidden" id="pricing-annual">
-      <div class="price-card"><div class="price-name">SingularityKit</div><div class="price-amount"><span class="currency">$</span>49<span class="price-then"> + $19/yr</span></div><div class="price-note" data-i18n="price_update_dl">Annual delta download</div><a href="#" class="btn-price" data-i18n="btn_buy">Buy Now</a></div>
-      <div class="price-card"><div class="price-name">ArkDrive</div><div class="price-amount"><span class="currency">$</span>299<span class="price-then"> + $49/yr</span></div><div class="price-note" data-i18n="price_update_drive">Annual drive update</div><a href="#" class="btn-price" data-i18n="btn_buy">Buy Now</a></div>
-      <div class="price-card featured"><div class="price-name">ZeroPoint Vault</div><div class="price-amount"><span class="currency">$</span>799<span class="price-then"> + $99/yr</span></div><div class="price-note" data-i18n="price_update_full">Annual full content refresh</div><a href="#" class="btn-price-gold" data-i18n="btn_buy">Buy Now</a></div>
-      <div class="price-card"><div class="price-name">Civilisation Seed</div><div class="price-amount"><span class="currency">$</span>1,999<span class="price-then"> + $199/yr</span></div><div class="price-note" data-i18n="price_update_priority">Priority + new databases</div><a href="#" class="btn-price" data-i18n="btn_buy">Buy Now</a></div>
-      <div class="price-card genesis-price"><div class="price-name">Genesis Pack</div><div class="price-amount"><span class="currency">$</span>4,999<span class="price-then"> + $499/yr</span></div><div class="price-note" data-i18n="price_update_lifetime">Lifetime priority or pay yearly</div><a href="#" class="btn-price-gold" data-i18n="btn_contact">Contact Us</a></div>
+      <div class="price-card"><div class="price-name">SingularityKit</div><div class="price-amount"><span class="currency">$</span>49<span class="price-then"> + $19/yr</span></div><div class="price-note">Annual delta download</div><a href="#" class="btn-price">Buy Now</a></div>
+      <div class="price-card"><div class="price-name">ArkDrive</div><div class="price-amount"><span class="currency">$</span>299<span class="price-then"> + $49/yr</span></div><div class="price-note">Annual drive update</div><a href="#" class="btn-price">Buy Now</a></div>
+      <div class="price-card featured"><div class="price-name">ZeroPoint Vault</div><div class="price-amount"><span class="currency">$</span>799<span class="price-then"> + $99/yr</span></div><div class="price-note">Annual full content refresh</div><a href="#" class="btn-price-gold">Buy Now</a></div>
+      <div class="price-card"><div class="price-name">Civilisation Seed</div><div class="price-amount"><span class="currency">$</span>1,999<span class="price-then"> + $199/yr</span></div><div class="price-note">Priority content + new databases</div><a href="#" class="btn-price">Buy Now</a></div>
+      <div class="price-card genesis-price"><div class="price-name">Genesis Pack</div><div class="price-amount"><span class="currency">$</span>4,999<span class="price-then"> + $499/yr</span></div><div class="price-note">Lifetime priority &mdash; or pay yearly</div><a href="#" class="btn-price-gold">Contact Us</a></div>
     </div>
   </div>
 </section>
 
-<!-- FAQ -->
 <section id="faq">
   <div class="section-inner faq-inner">
-    <div class="section-label" data-i18n="faq_label">FAQ</div>
-    <h2 data-i18n="faq_h2">Common questions.</h2>
+    <div class="section-label">FAQ</div>
+    <h2>Common questions.</h2>
     <div class="faq-list">
-      <details class="faq-item"><summary data-i18n="faq1_q">Do I need internet to use this after purchase?</summary><p data-i18n="faq1_a">No. The entire vault is self-contained on the drive. Once you have it, it works completely offline.</p></details>
-      <details class="faq-item"><summary data-i18n="faq2_q">What power does the drive require?</summary><p data-i18n="faq2_a">Physical drives are USB-powered (5V) and can run from any solar-charged battery bank, hand-crank generator, or reactor system.</p></details>
-      <details class="faq-item"><summary data-i18n="faq3_q">What is the annual update service?</summary><p data-i18n="faq3_a">Each year our team curates new scientific breakthroughs, updated survival protocols, and expanded databases. You receive only new content &mdash; no need to replace your drive.</p></details>
-      <details class="faq-item"><summary data-i18n="faq4_q">What is the Infinite Water (Mugen Mizu) system?</summary><p data-i18n="faq4_a">Our proprietary compilation of atmospheric water generation, fog collection, deep-well construction, biological filtration, and solar desalination &mdash; to produce potable water from virtually any environment without grid infrastructure.</p></details>
-      <details class="faq-item"><summary data-i18n="faq5_q">Can I load the content onto my own drive?</summary><p data-i18n="faq5_a">Yes. The SingularityKit is digital-only &mdash; download it and store it on any drive you own. Higher tiers include hardened pre-loaded drives, but you can always make additional copies.</p></details>
-      <details class="faq-item"><summary data-i18n="faq6_q">Is this legal to own and distribute?</summary><p data-i18n="faq6_a">Yes. All content is sourced from open-access, public domain, and Creative Commons repositories. You own the data outright upon purchase.</p></details>
+      <details class="faq-item"><summary>Do I need internet to use this after purchase?</summary><p>No. The entire vault is self-contained on the drive. Once you have it, it works completely offline &mdash; designed precisely for scenarios where the internet is gone.</p></details>
+      <details class="faq-item"><summary>What power does the drive require?</summary><p>Physical drives are USB-powered (5V) and can run from any solar-charged battery bank, hand-crank generator, or off-grid power source. The Genesis Pack includes a 12V adapter.</p></details>
+      <details class="faq-item"><summary>What is the annual update service?</summary><p>Each year our team curates new scientific breakthroughs, updated survival protocols, and expanded databases. You receive a delta package with only new content &mdash; no need to replace your drive.</p></details>
+      <details class="faq-item"><summary>Can I load the content onto my own drive?</summary><p>Yes. The SingularityKit is digital-only &mdash; download it and store it on any drive you own. Higher tiers include hardened pre-loaded drives, but you can always make additional copies.</p></details>
+      <details class="faq-item"><summary>Is this legal to own and distribute?</summary><p>Yes. All content is sourced from open-access, public domain, and Creative Commons repositories. We compile, curate, and organize &mdash; you own the data outright upon purchase.</p></details>
     </div>
   </div>
 </section>
 
-<!-- WAITLIST -->
 <section id="contact">
   <div class="section-inner contact-inner">
-    <div class="section-label" data-i18n="contact_label">STAY IN THE LOOP</div>
-    <h2 data-i18n="contact_h2">Join the waitlist.</h2>
-    <p class="section-sub" data-i18n="contact_sub">Be the first to know when new tiers ship, when the annual update drops, and when the Genesis Pack is available in your region.</p>
+    <div class="section-label">STAY IN THE LOOP</div>
+    <h2>Join the waitlist.</h2>
+    <p class="section-sub">Be the first to know when new tiers ship, when the annual update drops, and when the Genesis Pack is available in your region.</p>
     <form id="waitlist-form" class="waitlist-form" novalidate>
       <div class="form-row">
-        <div class="form-group">
-          <label for="wl-name" data-i18n="form_name">Your name</label>
-          <input type="text" id="wl-name" name="name" placeholder="Your name" autocomplete="name" />
-        </div>
-        <div class="form-group">
-          <label for="wl-email" data-i18n="form_email">Email address <span class="req">*</span></label>
-          <input type="email" id="wl-email" name="email" placeholder="you@example.com" required autocomplete="email" />
-        </div>
+        <div class="form-group"><label for="wl-name">Your name</label><input type="text" id="wl-name" name="name" placeholder="Your name" autocomplete="name" /></div>
+        <div class="form-group"><label for="wl-email">Email address <span class="req">*</span></label><input type="email" id="wl-email" name="email" placeholder="you@example.com" required autocomplete="email" /></div>
       </div>
       <div class="form-group">
-        <label for="wl-tier" data-i18n="form_tier">I am most interested in&hellip;</label>
+        <label for="wl-tier">I am most interested in&hellip;</label>
         <select id="wl-tier" name="tier">
-          <option value="" data-i18n="form_tier_default">Select a package (optional)</option>
+          <option value="">Select a package (optional)</option>
           <option value="SingularityKit">SingularityKit &mdash; Essential ($49)</option>
           <option value="ArkDrive">ArkDrive &mdash; Standard ($299)</option>
           <option value="ZeroPoint Vault">ZeroPoint Vault &mdash; Advanced ($799)</option>
@@ -387,12 +318,9 @@
           <option value="Genesis Pack">Genesis Pack &mdash; Ultimate ($4,999)</option>
         </select>
       </div>
-      <div class="form-group">
-        <label for="wl-msg" data-i18n="form_msg">Message (optional)</label>
-        <textarea id="wl-msg" name="message" rows="3" placeholder="Questions, bulk orders, institutional inquiries..."></textarea>
-      </div>
+      <div class="form-group"><label for="wl-msg">Message (optional)</label><textarea id="wl-msg" name="message" rows="3" placeholder="Questions, bulk orders, institutional inquiries..."></textarea></div>
       <button type="submit" class="btn-submit" id="wl-submit">
-        <span id="wl-btn-text" data-i18n="form_submit">Join Waitlist</span>
+        <span id="wl-btn-text">Join Waitlist</span>
         <span id="wl-spinner" class="spinner hidden"></span>
       </button>
       <p id="wl-feedback" class="form-feedback hidden"></p>
@@ -400,31 +328,24 @@
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
   <div class="footer-inner">
     <div class="footer-logo">
-      <svg width="22" height="22" viewBox="0 0 28 28" fill="none">
-        <circle cx="14" cy="14" r="13" stroke="#4A9EFF" stroke-width="1.5"/>
-        <circle cx="14" cy="14" r="5" fill="#4A9EFF" opacity="0.8"/>
-        <line x1="14" y1="1" x2="14" y2="7" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="14" y1="21" x2="14" y2="27" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="1" y1="14" x2="7" y2="14" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="21" y1="14" x2="27" y2="14" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/>
-      </svg>
+      <svg width="22" height="22" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="13" stroke="#4A9EFF" stroke-width="1.5"/><circle cx="14" cy="14" r="5" fill="#4A9EFF" opacity="0.8"/><line x1="14" y1="1" x2="14" y2="7" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/><line x1="14" y1="21" x2="14" y2="27" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/><line x1="1" y1="14" x2="7" y2="14" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/><line x1="21" y1="14" x2="27" y2="14" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round"/></svg>
       <span>Singularity Kit</span>
     </div>
-    <p class="footer-tagline" data-i18n="footer_tag">The knowledge to rebuild civilization. For humanity.</p>
+    <p class="footer-tagline">The knowledge to rebuild civilization. For humanity.</p>
     <div class="footer-links">
-      <a href="#" data-i18n="footer_privacy">Privacy</a>
-      <a href="#" data-i18n="footer_terms">Terms</a>
-      <a href="#" data-i18n="footer_contact">Contact</a>
+      <a href="/" style="opacity:1;color:var(--blue);">English</a>
+      <a href="/ja/">&#26085;&#26412;&#35486;</a>
+      <a href="/es/">Espa&ntilde;ol</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
     </div>
     <p class="footer-copy">&copy; 2026 <a href="https://singularitys.io" style="color:inherit;text-decoration:none;">singularitys.io</a> &mdash; All rights reserved.</p>
   </div>
 </footer>
 
-<script src="i18n.js"></script>
-<script src="main.js"></script>
+<script src="/main.js"></script>
 </body>
 </html>
