@@ -1,4 +1,4 @@
-﻿// Vercel Serverless Function — POST /api/waitlist
+// Vercel Serverless Function — POST /api/waitlist
 // Saves email + tier interest to Supabase
 
 import { createClient } from "@supabase/supabase-js";
@@ -9,8 +9,12 @@ const supabase = createClient(
 );
 
 export default async function handler(req, res) {
-  // CORS headers
-  res.setHeader("Access-Control-Allow-Origin", "https://singularitys.io");
+  // CORS headers — allow both custom domain and Vercel preview URL
+  const allowedOrigins = ["https://singularitys.io", "https://singularity-kit.vercel.app"];
+  const origin = req.headers.origin || "";
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader("Access-Control-Allow-Origin", origin);
+  }
   res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
